@@ -1,2 +1,2 @@
 # range-slider
-Range slider price using WAI-ARIA Technology
+Range slider price using jQuery UI Technology

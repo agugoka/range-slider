@@ -1,0 +1,102 @@
+@import "./styles/nav.css";
+@import "./styles/overUI.css";
+
+* {
+    font-family: "MangoSans_400",arial,helvetica,verdana,sans-serif;
+}
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(250, 250, 250);
+}
+h2 {
+    padding-left: 10px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0; 
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    width: 350px;
+}
+.slider_container_elements {
+    display: flex;
+    justify-content: center;
+}
+.slider_container {
+    padding: 13px 10px 0 5px;
+}
+.input {
+    position: relative;
+}
+.input:nth-child(1) {
+    margin-right: 10px;
+}
+.slider_container_elements > div > input {
+    color: #000;
+    width: 48px;
+    height: 30px;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    font-family: "MangoSans_300",arial,helvetica,verdana,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 17px;
+}
+.slider_container_elements > div > input:focus {
+    font-family: "MangoSans_400",arial,helvetica,verdana,sans-serif;
+    font-weight: 400;
+}
+.slider_container_elements > div > input+span::after {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    content: '€';
+    padding: 7px 0 0 0;
+    font-family: "MangoSans_300",arial,helvetica,verdana,sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-content: center;
+    height: 30px;
+    color: #000;
+}
+.output_container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    margin: 30px 0;
+}
+.output_container > label{
+    margin-right: 10px;
+}
+.output_container > input{
+    border: 0;
+    color: #FFF;
+    background-color: #000;
+    width: 100px;
+    text-align: center;
+    padding: 5px 8px;
+    font-family: "MangoSans_300",arial,helvetica,verdana,sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}

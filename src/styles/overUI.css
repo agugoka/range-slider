@@ -1,0 +1,51 @@
+#slider-range {
+    width: 245px;
+}
+.ui-widget.ui-widget-content {
+    border: none;
+    background-color: #000;
+    height: 6px;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -6px;
+}
+.ui-slider-horizontal .ui-slider-range {
+    background-color: #000;
+}
+.ui-corner-all{
+    border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -ms-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
+}
+.ui-state-default{
+    width: 17px !important;
+    height: 17px !important;
+    background: #000 !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 50% !important;
+    transition: transform ease 300ms;
+    -webkit-transition: transform ease 300ms;
+    -moz-transition: transform ease 300ms;
+    -ms-transition: transform ease 300ms;
+    -o-transition: transform ease 300ms;
+    cursor: grab !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+.ui-state-default:active {
+    outline: none !important;
+    border: none !important;
+    cursor: grabbing !important;
+}
+.ui-state-default:hover, .ui-state-default:active {
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
